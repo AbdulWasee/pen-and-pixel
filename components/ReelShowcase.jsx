@@ -30,10 +30,13 @@ function ReelCard({ reel, index, onOpen }) {
       onClick={() => hasVideo && onOpen(reel)}
     >
       <div className="reel-card-inner">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="reel-poster" src={reel.poster} alt="" loading="lazy" draggable={false} />
+        {/* Only show poster image if it exists */}
+        {reel.poster && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img className="reel-poster" src={reel.poster} alt="" loading="lazy" draggable={false} />
+        )}
         {hasVideo && (
-          <video className="reel-video" ref={videoRef} muted loop playsInline preload="none" poster={reel.poster}>
+          <video className="reel-video" ref={videoRef} muted loop playsInline preload="none" poster={reel.poster || ''}>
             <source src={reel.src} type="video/mp4" />
           </video>
         )}

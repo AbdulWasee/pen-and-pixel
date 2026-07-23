@@ -17,10 +17,11 @@
 // ============================================================
 
 const reels = [
-  { poster: "/reels/video1.mp4", src: "/reels/video1.mp4", label: "Motion",  title: "Reel One" },
-  { poster: "/reels/video2.mp4", src: "/reels/video2.mp4", label: "Creative",   title: "Reel Two" },
-  { poster: "/reels/video3.mp4", src: "/reels/video3.mp4", label: "Visual", title: "Reel Three" },
-  { poster: "/reels/video4.mp4", src: "/reels/video4.mp4", label: "Digital", title: "Reel Four" },
+  { src: "/reels/video1.mp4", label: "Motion",  title: "Reel One" },
+  { src: "/reels/video2.mp4", label: "Creative",   title: "Reel Two" },
+  { src: "/reels/video3.mp4", label: "Visual", title: "Reel Three" },
+  { src: "/reels/video4.mp4", label: "Digital", title: "Reel Four" },
+  { src: "/reels/video5.mp4", label: "Brand", title: "Reel Five" },
 ];
 
 export default reels;
