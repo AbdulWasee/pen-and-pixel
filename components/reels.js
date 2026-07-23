@@ -17,11 +17,13 @@
 // ============================================================
 
 const reels = [
-  { src: "/reels/video1.mp4", label: "Motion",  title: "Reel One" },
-  { src: "/reels/video2.mp4", label: "Creative",   title: "Reel Two" },
-  { src: "/reels/video3.mp4", label: "Visual", title: "Reel Three" },
-  { src: "/reels/video4.mp4", label: "Digital", title: "Reel Four" },
-  { src: "/reels/video5.mp4", label: "Brand", title: "Reel Five" },
+  { poster: "/reels/thumbnail1.png", src: "/reels/video1.mp4", label: "Motion", title: "Reel One" },
+  { poster: "/reels/thumbnail2.png", src: "/reels/video2.mp4", label: "Creative", title: "Reel Two" },
+  { poster: "/reels/thumbnail3.png", src: "/reels/video3.mp4", label: "Visual", title: "Reel Three" },
+  { poster: "/reels/thumbnail4.png", src: "/reels/video4.mp4", label: "Digital", title: "Reel Four" },
+  { poster: "/reels/thumbnail5.png", src: "/reels/video5.mp4", label: "Brand", title: "Reel Five" },
+  { poster: "/reels/thumbnail6.png", src: "/reels/video6.mp4", label: "Style", title: "Reel Six" },
+  { poster: "/reels/thumbnail7.png", src: "/reels/video7.mp4", label: "Impact", title: "Reel Seven" },
 ];
 
 export default reels;
