@@ -17,12 +17,10 @@
 // ============================================================
 
 const reels = [
-  { poster: "/reels/reel-01.jpg", src: "", label: "Fashion",  title: "Lookbook teaser" },
-  { poster: "/reels/reel-02.jpg", src: "", label: "Beauty",   title: "Product reel" },
-  { poster: "/reels/reel-03.jpg", src: "", label: "Skincare", title: "Launch film" },
-  { poster: "/reels/reel-04.jpg", src: "", label: "Garments", title: "Campaign cut" },
-  { poster: "/reels/reel-05.jpg", src: "", label: "Brand",    title: "Brand film" },
-  { poster: "/reels/reel-06.jpg", src: "", label: "Social",   title: "Trend reel" },
+  { poster: "/reels/video1.mp4", src: "/reels/video1.mp4", label: "Motion",  title: "Reel One" },
+  { poster: "/reels/video2.mp4", src: "/reels/video2.mp4", label: "Creative",   title: "Reel Two" },
+  { poster: "/reels/video3.mp4", src: "/reels/video3.mp4", label: "Visual", title: "Reel Three" },
+  { poster: "/reels/video4.mp4", src: "/reels/video4.mp4", label: "Digital", title: "Reel Four" },
 ];
 
 export default reels;
